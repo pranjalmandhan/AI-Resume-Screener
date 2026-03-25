@@ -12,7 +12,7 @@ Welcome to the **AI Resume Intelligence** project. This is a high-level recruitm
 
 # Core Technologies & Logic
 
-### 1. Natural Language Processing (NLP)
+# 1. Natural Language Processing (NLP)
 The system treats documents as vectors in a multidimensional space. 
 * **TF-IDF:** This algorithm weighs the importance of a word. Rare technical terms (like "TensorFlow") are given more weight than common words (like "Experience"), ensuring the score reflects actual expertise.
 * **Cosine Similarity:** The system calculates the "distance" between the Resume Vector and the JD Vector. A higher percentage represents a smaller mathematical angle between the two documents.
@@ -26,7 +26,7 @@ The system treats documents as vectors in a multidimensional space.
 * **Parsing:** PyMuPDF (Fitz)
 * **Data Handling:** Pandas & Regex (re)
 
- 📂 Project Structure
+ #📂 Project Structure
 
 A professional "src/data" architecture is implemented to keep the core logic separate from the datasets and documentation.
 
