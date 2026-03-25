@@ -1,4 +1,5 @@
 # AI-Resume-Screener
+AI-Powered Resume Screening & Ranking System
 
 Welcome to the **AI Resume Intelligence** project. This is a high-level recruitment automation tool designed to solve the problem of manual resume filtering. By treating text as mathematical vectors, the system provides an objective, data-driven ranking of candidates against any specific Job Description (JD).
 
