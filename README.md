@@ -2,7 +2,7 @@
 
 Welcome to the **AI Resume Intelligence** project. This is a high-level recruitment automation tool designed to solve the problem of manual resume filtering. By treating text as mathematical vectors, the system provides an objective, data-driven ranking of candidates against any specific Job Description (JD).
 
- Key Features
+ # Features
 
 * **Automated Text Extraction:** Uses `PyMuPDF` to parse unstructured PDF data into normalized plaintext, handling complex layouts with high precision.
 * **Semantic Similarity Engine:** Moves beyond simple keyword counting by using **TF-IDF (Term Frequency-Inverse Document Frequency)** and **Cosine Similarity** to measure the actual relevance between a CV and a JD.
@@ -10,7 +10,7 @@ Welcome to the **AI Resume Intelligence** project. This is a high-level recruitm
 * **Skill-Gap Visualization:** Dynamically compares the required technical stack of a JD against the candidate's profile to flag missing critical skills.
 * **Batch Analysis:** Optimized to process multiple resumes simultaneously, returning a sorted ranking table for high-volume hiring.
 
-## 🧠 Core Technologies & Logic
+# Core Technologies & Logic
 
 ### 1. Natural Language Processing (NLP)
 The system treats documents as vectors in a multidimensional space. 
@@ -19,14 +19,14 @@ The system treats documents as vectors in a multidimensional space.
 
 
 
-### 2. Technical Stack
+# 2. Technical Stack
 * **Language:** Python 3.10+
 * **Interface:** Streamlit (Web-based Dashboard)
 * **AI Engine:** Scikit-Learn (Vectorization & Linear Algebra)
 * **Parsing:** PyMuPDF (Fitz)
 * **Data Handling:** Pandas & Regex (re)
 
-## 📂 Project Structure
+ 📂 Project Structure
 
 A professional "src/data" architecture is implemented to keep the core logic separate from the datasets and documentation.
 
